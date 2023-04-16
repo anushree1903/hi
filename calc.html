@@ -1,49 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width= , initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="calc.css">
-
-  <title>Love Calculator</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Neuton&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-  <div class='d-flex justify-content-center'>
-    <h1 class="m-5"> Calculate Love❤️</h1>
-  
-  </div>
-  <p class="para">Check how much your partner loves you</p>
-  
-    <div class='m-5 text-center'>
-      <!-- <h5>Your Name:</h5> -->
-
-      <form>
-        <h4><label for="fname">Enter your Name:</label></h4><br>
-        <input type="text" id="fname" name="fname" class="input"><br>
-      </form>
+    <h1>Love Calculator ♥ </h1>
+    <div class="container">
+        <p>Get your own love result Instantly</p>
+        <form id="love-form">
+		<label for="fname">Your Name</label>
+		<input type="text" id="fname" name="fname" autocomplete="off" required><br>
+		<label for="sname">Partner's Name</label>
+		<input type="text" id="sname" name="sname" autocomplete="off" required><br>
+		<button type="submit">Calculate ♥</button>
+	    </form>
+        <div id="result"></div>
     </div>
-    <div class='m-5 text-center'>
-        <h4><label for="lname">Enter your Partner's name:</label></h4><br>
-        <input type="text" id="lname" name="lname" class="input">
-    </div>
-    
-    <div class='d-flex justify-content-center'>
-      <button>calculate</button>
-    </div>
-  <div class ='d-flex justify-content-around'>
-
-  </div>
-  <div class='results'>
-
-  </div>
-</div>
+	<script src="scripts.js"></script>
 </body>
-    <script src="calc.js"></script>
 </html>
