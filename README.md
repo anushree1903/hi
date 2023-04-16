@@ -1,1 +1,2 @@
-# love-calculator using HTML CSS Javascript
+# love-calculator 
+using only Html, Vanilla JS and pure CSS.
