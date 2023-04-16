@@ -4,28 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Love percentage Calculator</title>
-  <link rel="stylesheet" href="styles.css" class="">
+  <title>Clock</title>
+  <link rel="icon" href="clock.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <section class="circle">
-  <div class="content">
-    <div class="textBox">
-      <h2>HEY !!!!</h2><br><p>Do you want to know how much your partner<br><span><em>LOVES YOU</em></span></p>
-       <a href="#" id="love-btn">Click here</a>
+  <div class ="slogan">
+    <h1>Do you want to know how much your partner loves you?</h1>
+    <button id="btn">Click here</button>
+  </div>
+    <div class="image">
+        <img src="imges/background.png" height="100%" width="100%" alt="image">
     </div>
-    <div class="imgBox">
-      <img src="imges/background.png" class="love">
-    </div>
-  </div> 
-</section>
-<script>
-  const loveBtn = document.querySelector("#love-btn");
-
-  loveBtn.addEventListener("click", function() {
-    // Replace "target-page-url" with the URL of the target page
-    window.location.href = "calc.html";
-  });
-</script>
+   <script src="script.js"></script>
 </body>
 </html>
